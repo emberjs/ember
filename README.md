@@ -3,13 +3,11 @@
   http://emberjs.com/
 </p>
 
-
 ## Get Started
 
 ```
 npm install -g ember-cli
 ```
-
 
 ## Node Modules:
 
