@@ -4,7 +4,9 @@
   "description": "A framework for creating ambitious web applications.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node ./index.js"
+    "postinstall": "node ./index.js --postinstall",
+    "test": "rm -rf ./my-app/; node ./index.js",
+    "test:app": "npm run test -- new my-app --skip-git --skip-npm"
   },
   "repository": {
     "type": "git",
