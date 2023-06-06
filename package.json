@@ -3,10 +3,12 @@
   "version": "1.0.3",
   "description": "A framework for creating ambitious web applications.",
   "main": "index.js",
+  "bin": "bin.js",
   "scripts": {
     "postinstall": "node ./index.js --postinstall",
     "test": "rm -rf ./my-app/; node ./index.js",
-    "test:app": "npm run test -- new my-app --skip-git --skip-npm"
+    "test:app": "npm run test -- new my-app --skip-git --skip-npm",
+    "dev:install": "npm install -g ."
   },
   "repository": {
     "type": "git",
