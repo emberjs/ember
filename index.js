@@ -29,5 +29,4 @@ console.log(
 
 spawn('npx', ['ember-cli', ...args], {
   stdio: 'inherit',
-  env: { ...process.env },
-});
+}).on('exit', code => process.exit(code));
