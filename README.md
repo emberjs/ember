@@ -1,7 +1,10 @@
+<br><br>
 <p align="center">
-  <a href="http://emberjs.com"><img width="300" src="https://emberjs.com/images/brand/ember_Ember-Light-e42a2b30.png"></a><br>
-  http://emberjs.com/
+  <a href="http://emberjs.com">
+    http://emberjs.com/
+  </a><br>
 </p>
+<br>
 
 ## Get Started
 
