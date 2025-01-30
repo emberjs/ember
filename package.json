@@ -2,20 +2,23 @@
   "name": "ember",
   "version": "1.0.3",
   "description": "A framework for creating ambitious web applications.",
+  "homepage": "https://github.com/emberjs/ember#readme",
+  "bugs": {
+    "url": "https://github.com/emberjs/ember/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emberjs/ember.git"
+  },
+  "license": "MIT",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "postinstall": "node ./index.js --postinstall",
     "test": "rm -rf ./my-app/; node ./index.js",
     "test:app": "npm run test -- new my-app --skip-git --skip-npm"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emberjs/ember.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/emberjs/ember/issues"
-  },
-  "homepage": "https://github.com/emberjs/ember#readme"
+  "devDependencies": {
+    "release-plan": "^0.11.0"
+  }
 }
