@@ -28,6 +28,6 @@ console.log(
   `  Forwarding request to ember-cli via \`npx ember-cli ${args.join(' ')}\``
 );
 
-spawn('npx', ['ember-cli', ...args], {
+spawn('npx', ['ember-cli@latest', ...args], {
   stdio: 'inherit',
 }).on('exit', code => process.exit(code));
